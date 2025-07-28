@@ -41,7 +41,14 @@
           "group": "2_workspace"
         }
       ]
-    }
+    },
+    "keybindings": [
+      {
+        "command": "robloxconnect.execute_active",
+        "key": "ctrl+alt+e",
+        "when": "editorTextFocus"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "pnpm run compile",
